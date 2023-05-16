@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_GitPairLab", "Library_GitPairLab\Library_GitPairLab.csproj", "{5F17CE79-B579-4CBF-8A9A-8975B3D2AC01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_GitPairLab.Testing", "Library_GitPairLab.Testing\Library_GitPairLab.Testing.csproj", "{C75958EB-D883-47F8-B7C7-4B6F4D634BE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5F17CE79-B579-4CBF-8A9A-8975B3D2AC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F17CE79-B579-4CBF-8A9A-8975B3D2AC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F17CE79-B579-4CBF-8A9A-8975B3D2AC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75958EB-D883-47F8-B7C7-4B6F4D634BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75958EB-D883-47F8-B7C7-4B6F4D634BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75958EB-D883-47F8-B7C7-4B6F4D634BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75958EB-D883-47F8-B7C7-4B6F4D634BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
