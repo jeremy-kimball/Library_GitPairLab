@@ -13,8 +13,8 @@ namespace Library_GitPairLab
 
         public Library()
         {
-            List<Book> Books = new List<Book>();
-            List<Patron> Patrons = new List<Patron>();
+            Books = new List<Book>();
+            Patrons = new List<Patron>();
         }
 
         public List<Book> BooksInStock()
@@ -61,7 +61,7 @@ namespace Library_GitPairLab
                     returnBookList.Add(book);
                 }
             }
-            return returnBookList();
+            return returnBookList;
         }
 
     }

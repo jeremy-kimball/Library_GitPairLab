@@ -81,8 +81,8 @@ namespace Library_GitPairLab.Testing
             Assert.NotNull(book1.Patron);
             Assert.NotNull(book2.Patron);
 
-            book1.Return(book1);
-            book2.Return(book2);
+            libraryTest.Return(book1);
+            libraryTest.Return(book2);
 
             Assert.Null(book1.Patron);
             Assert.Null(book2.Patron);
@@ -95,6 +95,9 @@ namespace Library_GitPairLab.Testing
             Book book2 = new Book("Book2", "Author2");
             Patron patron1 = new Patron("test1", "123-456-7890");
             Patron patron2 = new Patron("test2", "098-765-4321");
+
+            libraryTest.AddBook(book1);
+            libraryTest.AddBook(book2);
 
             book1.Checkout(patron1);
             book2.Checkout(patron1);
